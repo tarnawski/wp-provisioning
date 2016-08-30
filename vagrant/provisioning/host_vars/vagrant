@@ -1,0 +1,9 @@
+---
+project_name: wp
+project_root: "/var/www/{{ project_name }}"
+
+mysql_database: "{{ project_name }}"
+
+mysql_port: 3306
+mysql_pass: root
+
